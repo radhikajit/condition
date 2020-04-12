@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+ int no;
+ printf("enter no. from 1 to 5 to place order:\n The MENU :\n1.Pizza, Rs 239\n2.Burger, Rs 129\n3.Pasta, Rs 179\n4.French Fries, Rs 99\n5.Sandwich, Rs 149");
+ scanf("%d",&no);
+ switch(no)
+ {
+  case 1: printf("order placed food item:pizza\nprice:Rs239");
+          break;
+  case 2: printf("order placed food item:burger\nprice:Rs129");
+          break;
+  case 3: printf("order placed food item:pasta\nprice:Rs179");
+          break;
+  case 4: printf("order placed food item:french fries\nprice:Rs99");
+          break;
+  case 5: printf("order placed food item:sandwich\nprice:Rs149");
+          break;
+  default: printf("wrong no. entered");
+ }
+}
